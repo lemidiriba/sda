@@ -3,7 +3,7 @@
 @section('title', app_name() . ' | ' . __('strings.backend.dashboard.title'))
 
 @section('content')
-<div class="bg-white p-2 p-o">
+<div class="bg-white p-2">
     <h2 class="h2" id="title" data-title-value="{{ $title }}"> @lang('strings.backend.message.title.type_'.$title) </h2>
     <table id="table" class="table font-weight-normal pb-0 fade-in" style="width:100%">
         <thead>
@@ -280,7 +280,7 @@
 
 
 
-    
+
 
 
 </script>

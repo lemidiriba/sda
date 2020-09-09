@@ -685,7 +685,15 @@ class MessageTableSeeder extends Seeder
             [
                 'phone_no' => '0900015121',
                 'message_type' => 'D',
-                'message_value' => '10',
+                'message_value' => '15',
+
+            ]
+        );
+        Message::create(
+            [
+                'phone_no' => '0900015121',
+                'message_type' => 'D',
+                'message_value' => '15',
 
             ]
         );
@@ -701,15 +709,7 @@ class MessageTableSeeder extends Seeder
             [
                 'phone_no' => '0900015121',
                 'message_type' => 'D',
-                'message_value' => '10',
-
-            ]
-        );
-        Message::create(
-            [
-                'phone_no' => '0900015121',
-                'message_type' => 'D',
-                'message_value' => '10',
+                'message_value' => '15',
 
             ]
         );
